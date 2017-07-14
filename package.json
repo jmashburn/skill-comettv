@@ -1,13 +1,14 @@
 {
-  "name": "skill-comettv",
+  "name": "skill-comettv-nodejs",
   "version": "0.1.0",
   "description": "An Alexa skill for getting Comet TV schedule",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: not test specified\" && exit 1"
   },
   "dependencies": {
-    "scrape-it": "^3.3.2"
+    "scrape-it": "^3.3.2",
+    "alexa-sdk": "^1.0.6"
   },
   "engines": {
     "node": "4.0.0"
@@ -17,10 +18,12 @@
     "url": "https://github.com/jmashburn/skill-comettv.git"
   },
   "keywords": [
-    "node",
-    "alexa"
+    "Alexa",
+    "skill",
+    "comettv"
   ],
   "author": "Jared Mashburn",
+  "homepage": "https://github.com/jmashburn/skill-comettv#readme",
   "contributors": [],
   "license": "MIT"
 }
